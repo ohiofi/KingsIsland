@@ -14,12 +14,11 @@ public class KingsIsland1
 		Scanner myScanner = new Scanner(System.in);
 		//Declare variables for the number of people, parking cost, food cost, total cost, cost per person
 		int numPeople;
-		System.out.print("How many people?");
-		numPeople = myScanner.nextInt();
-		String username = myScanner.nextLine();
+
 
 		//Prompt for and read in the number of people in the group
-
+		System.out.print("How many people?");
+		numPeople = myScanner.nextInt();
 
 		//Prompt for and read in the cost of parking
 
